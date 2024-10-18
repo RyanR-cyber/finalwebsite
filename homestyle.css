@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.item {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 calc(25% - 20px); /* Adjust width and margin */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.item h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .item {
+        flex: 1 1 calc(50% - 20px); /* Two items per row on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .item {
+        flex: 1 1 100%; /* Full width on extra small screens */
+    }
+}
