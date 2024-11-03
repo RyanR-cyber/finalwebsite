@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+
+.flex container {
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Space between items */
+    padding: 10px; /* Optional padding */
+}
+
+.box {
+    background-color: lightblue; /* Background color for visibility */
+    padding: 20px; /* Padding inside each box */
+    margin: 5px; /* Margin between boxes */
+    flex: 1; /* Grow to fill the space equally */
+    text-align: center; /* Center text */
+    border: 1px solid #000; /* Optional border */
+}
+.h3{
+	align-content: center
+}
