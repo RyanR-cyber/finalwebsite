@@ -1,3 +1,25 @@
 @charset "utf-8";
 /* CSS Document */
+.social-media-container {
+  display: flex;
+  justify-content: center;  /* Align items horizontally in the center */
+  gap: 100px;                /* Spacing between the circles */
+}
+
+.social-media-item {
+  width: 100px;              /* Set the size of the circle */
+  height: 100px;
+  display: flex;
+  align-items: center;      /* Center the logo vertically */
+  justify-content: center;  /* Center the logo horizontally */
+  border-radius: 50%;       /* Make the div circular */
+  background-color: #f0f0f0; /* Background color for the circle */
+  overflow: hidden;         /* Ensures the image stays within the circle */
+}
+
+.social-media-item img {
+  width: 100px;              /* Size of the logo inside the circle */
+  height: 100px;
+  object-fit: contain;      /* Ensure the image fits within the circle */
+}
 
