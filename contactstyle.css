@@ -22,4 +22,29 @@
   height: 100px;
   object-fit: contain;      /* Ensure the image fits within the circle */
 }
+.socials-header {
+  text-align: center;
+  font-size: 36px;  /* Adjust the font size as needed */
+  font-weight: bold;  /* Optional, you can modify this */
+  color: white;  /* Choose your color */
+}
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-email a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
 
+.contact-email a:hover {
+    text-decoration: underline;
+}
