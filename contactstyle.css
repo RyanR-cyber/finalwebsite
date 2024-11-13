@@ -1,50 +1,54 @@
 @charset "utf-8";
 /* CSS Document */
-.social-media-container {
-  display: flex;
-  justify-content: center;  /* Align items horizontally in the center */
-  gap: 100px;                /* Spacing between the circles */
-}
-
-.social-media-item {
-  width: 100px;              /* Set the size of the circle */
-  height: 100px;
-  display: flex;
-  align-items: center;      /* Center the logo vertically */
-  justify-content: center;  /* Center the logo horizontally */
-  border-radius: 50%;       /* Make the div circular */
-  background-color: #f0f0f0; /* Background color for the circle */
-  overflow: hidden;         /* Ensures the image stays within the circle */
-}
-
-.social-media-item img {
-  width: 100px;              /* Size of the logo inside the circle */
-  height: 100px;
-  object-fit: contain;      /* Ensure the image fits within the circle */
-}
-.socials-header {
-  text-align: center;
-  font-size: 36px;  /* Adjust the font size as needed */
-  font-weight: bold;  /* Optional, you can modify this */
-  color: white;  /* Choose your color */
-}
-.contact-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    background-color: white;
+/* Reset default styles */
+.social-media {
+    text-align: center; /* Center the whole social media section */
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-.contact-email a {
-    color: #007BFF;
-    text-decoration: none;
-    font-weight: bold;
 }
 
-.contact-email a:hover {
-    text-decoration: underline;
+.social-media h2 {
+    font-size: 2em;
+    color: 
+rgba(255,255,255,1.00)}
+
+.social-media p {
+    font-size: 1.1em;
+    color:rgba(255,255,255,1.00); 
+    margin-bottom: 20px;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline-block; /* Make list items appear in a row */
+    margin: 0 20px;
+    font-size: 1.2em;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: rgba(255,255,255,1.00); /* Text color */
+    display: flex; /* Align text and image side by side */
+    align-items: center;
+    gap: 10px;
+}
+
+.social-media img {
+    border-radius: 50%; /* Optional: makes the logo circular */
+    transition: transform 0.3s ease;
+}
+
+.social-media a:hover img {
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+}
+
+.social-media a:hover {
+    color: #0078D4; /* Change text color on hover (example: blue) */
+}
+.contact-container{
+	color:  rgba(255,255,255,1.00);
+text-align: center
 }
