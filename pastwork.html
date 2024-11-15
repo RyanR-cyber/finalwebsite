@@ -8,6 +8,15 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
 </head>
 
 <body>
@@ -22,15 +31,28 @@
 			<li><a href="about.html">About</a></li>
         </ul>
     </nav>
-       
     </div>
-	<div class="flex container">
-		<h3>Past Work</h3>
-    <div class="box">Box 1</div>
-    <div class="box">Box 2</div>
-    <div class="box">Box 3</div>
+	
+<div id="accordion">
+  <h3>Photoshop</h3>
+  <div>
+    <img src="images/animalfarm.jpg" alt="farm" width="200px" height="200px">
+	  <img src="images/deerdis.jpg" alt="deer" width="200px" height="200px">
+	  <img src="images/creature.jpg" alt="creature" width="300px" height="200px">
+   </div>
+  <h3>Posters</h3>
+  <div>
+    <img src="images/band poster.jpg" alt="rock poster" width="150px" height="240px">
+	  <img src="images/postergd.jpg" alt="growth" width="150px" height="240px">
+  </div>
+  <h3>illustrator</h3>
+  <div>
+    
+   <img src="images/cartoon.jpg" alt="cartoon" width="200px" height="200px">
+	  <img src="images/tuscsun.jpg" alt="sun" width="200px" height="300px">
+  </div>
+  
 </div>
-
 	<footer>Copyright Ryan Rodriguez 2024</footer>
 </body>
 </html>

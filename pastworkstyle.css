@@ -18,3 +18,10 @@
 .h3{
 	align-content: center
 }
+#accordion div {
+	   display: flex;            /* Set display to flex */
+    justify-content: center;  /* Center images horizontally */
+    align-items: center;/* Optional: Center images vertically */
+    flex-wrap: wrap;          /* Allow wrapping of images if needed */
+    gap: 200px;
+	background: #015958}
