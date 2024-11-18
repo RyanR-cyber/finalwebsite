@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   padding: 60px;
+	 
 
 }
 
@@ -15,6 +16,7 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 20px; /* Adds space between the picture and text */
+	 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .flex-box.picture img {
@@ -29,9 +31,10 @@
   align-items: flex-start;
   padding: 20px;
   max-width: 600px; /* Control the width of the text area */
-	background: 
-	
-#0FC2C0}
+	background: #0FC2C0;
+	margin-left: 100px;
+		 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 .flex-box.content h1 {
   font-size: 2rem;
@@ -47,12 +50,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
   background-color: #0FC2C0;
-  width: 100%;
+  width: 80%;
+	margin-bottom: 50px;
+	margin-right: auto;
+	margin-left: auto;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .flex-box.footer p {
   font-size: 1rem;
-  color: #555;
+  
 }
