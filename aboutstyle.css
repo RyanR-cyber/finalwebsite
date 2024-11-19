@@ -5,8 +5,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: 60px;
-	
+  padding: 70px ;
+	  max-width: 1200px; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Slight shadow for effect */
+    border-radius: 8px; /* Rounded corners */
 
 }
 
@@ -22,7 +25,7 @@
 .flex-box.picture img {
   width: 300px; /* Adjust size of the image */
   height: 200px;
-	border-radius: 10px 20px 30px 40px;
+	border-radius: 8px;
 }
 
 /* Second Flexbox: Box for text content */
@@ -35,7 +38,7 @@
 	background: #0FC2C0;
 	margin-left: 100px;
 		 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-	border-radius: 10px 20px 30px 40px;
+	border-radius: 8px;
 }
 
 .flex-box.content h1 {
@@ -59,7 +62,8 @@
 	margin-right: auto;
 	margin-left: auto;
  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-	border-radius: 10px 20px 30px 40px;
+	border-radius: 8px;
+	clear: both;
 }
 
 .flex-box.footer p {
