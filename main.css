@@ -42,7 +42,7 @@ body {
 }
 	
 	footer{
-	width:100%;
+	width:0 auto;
 	height: 20px;
 	background-color: #0FC2C0;
 	clear: both; text-align: center
