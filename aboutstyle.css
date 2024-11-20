@@ -26,6 +26,7 @@
   width: 300px; /* Adjust size of the image */
   height: 200px;
 	border-radius: 8px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.9); /* Slight shadow for effect */
 }
 
 /* Second Flexbox: Box for text content */
@@ -37,7 +38,7 @@
   max-width: 600px; /* Control the width of the text area */
 	background: #0FC2C0;
 	margin-left: 100px;
-		 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.9); /* Slight shadow for effect */
 	border-radius: 8px;
 }
 
@@ -48,6 +49,7 @@
 
 .flex-box.content p {
   font-size: 1.2rem;
+	
 }
 
 /* Third Flexbox: Footer centered below */
@@ -57,13 +59,14 @@
   align-items: center;
   padding: 20px;
   background-color: #0FC2C0;
-  width: 80%;
-	margin-bottom: 50px;
-	margin-right: auto;
-	margin-left: auto;
- box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 70%;
+ box-shadow: 0 2px 10px rgba(0, 0, 0, 0.9); /* Slight shadow for effect */
 	border-radius: 8px;
 	clear: both;
+	margin-left: 240px;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	
 }
 
 .flex-box.footer p {
