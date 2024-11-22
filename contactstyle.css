@@ -9,11 +9,11 @@
 }
 
 .social-media h2 {
-    font-size: 2em;
+    font-size: 1.5 em;
     }
 
 .social-media p {
-    font-size: 1.1em; 
+    font-size: 2.1em; 
     margin-bottom: 20px;
 }
 
@@ -25,7 +25,7 @@
 .social-media li {
     display: inline-block; /* Make list items appear in a row */
     margin: 0 20px;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .social-media a {
@@ -57,5 +57,6 @@ text-align: center;
     border-radius: 8px; /* Rounded corners */
 	background: #0CABA8;
 		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.9); /* Slight shadow for effect */
-	margin-bottom: 50px
+	margin-bottom: 50px;
+		font-size: 1.2em;
 }
