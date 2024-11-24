@@ -26,4 +26,14 @@
     align-items: center;/* Optional: Center images vertically */
     flex-wrap: wrap;          /* Allow wrapping of images if needed */
     gap: 200px;
-	background: #015958}
+	background: #015958;
+	color: 
+	#FFFFFF;
+font-size: 1.5em
+}
+
+  .image-container img {
+    display: block;
+    margin-bottom: 10px; /* Adds space between the image and text */
+  }
+
